@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    width:100%;
+    height: 6vh;
+    background-color: #002969;
+}
+
+#formulario{
+    display:flex;
+    flex-direction: column;
+}
+
+#logo {
+    margin-top:5vh;
+    height:102px;
+    width: 230px;
+    align-self: center;
+
+}
+
+#logo img{
+    width: 100%;
+    height:100%;
+}
+
+form{
+    margin-top: 6vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    color:#002969;
+    font-size:1.5rem;
+    font-weight: 600;
+    margin-bottom: 2vh;
+    
+}
+
+input{
+    border-color:#002969;
+    border-radius: 15px;
+    width:85%;
+    height:5vh;
+    margin-bottom:2vh;
+}
+
+#calcular{
+    width:50%;
+    height:7vh;
+    background: #002969;
+    border: none;
+    font-size: 1.5rem;
+    color:white;
+}
+
+td{
+    border:2px solid #002969;
+    width: 20%;
+    background-color: white;
+
+}
+
+thead td{
+    background:#002969;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #002969;
+    height: 5vh;
+    width: 100%;
+    DISPLAY: NONE;
+    
+}
+
+@media only screen and (min-width: 1024px){
+    #logo{
+        height:242px;
+        width:600px;
+        margin-top:3vh;
+    }
+
+    form{
+        margin-top:3vh;
+    }
+
+
+    input{
+        width:30%;
+    }
+
+    #calcular{
+        width:15%;
+        margin-top:2vh;
+    }
+}
